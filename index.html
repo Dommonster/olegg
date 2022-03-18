@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style_recept.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<title>Document</title>
+	<style>
+		.cont{
+			display: block;
+			width: 500px;
+			margin: 0 auto;
+
+		}
+	</style>
+</head>
+<body>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	<header>
+	<div class="conteiner-xxl">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">РЕСТОРАН DDN</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#" style="color: red;">Home</a>
+        </li>
+       
+        
+        
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+	<div class="collapse" id="navbarToggleExternalContent">
+  <div class="bg-dark p-4">
+    <h5 class="text-white h4">Лучший ресторан челябинска с возможностью бесплатной доставки еды</h5>
+    <span class="text-muted"><figure>
+  <blockquote class="blockquote">
+    <p>Еда — важная часть сбалансированной диеты.
+</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+   Автор <cite title="Source Title">DDN</cite>
+  </figcaption>
+</figure></span>
+  </div>
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://avatars.mds.yandex.net/get-zen_doc/96506/pub_5a4e197bc89010d832ea5fd7_5a4e19a13c50f73ef998b59a/scale_1200" class="d-block w-100" alt="СУП">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.foodhere.ru/wp-content/uploads/2019/06/zakuski-kanape-buterbrody-syr-frukty-ryba.jpg" class="d-block w-100" alt="ЗАКУСКИ">
+    </div>
+    <div class="carousel-item">
+      <img src="https://avatars.mds.yandex.net/get-zen_doc/133957/pub_5bae12bca9788700a9f3dd33_5bae12d8e0927100aa20436e/scale_1200" class="d-block w-100" alt="ГАРНИРЫ">
+    </div>
+    <div class="carousel-item">
+      <img src="https://million-wallpapers.ru/wallpapers/4/94/17620493804854186144/pirozhnoe.jpg" class="d-block w-100" alt="ДЕСЕРТЫ">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+</div>
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
+</div>
+</header>
+
+<section>
+	<h1 class="sect">У нас вы найдете...</h1>
+	<div class="container">
+  <div class="row g-2">
+    <div class="col-6">
+    	<h5 style="color: orange;"><a href="" style="color: orange; text-decoration: none;">Горячие Супы</a></h5>
+    	<br>
+      <div class="p-3 border bg-light">Описание супов </div>
+    </div>	<br>	
+    <div class="col-6">
+    	<h5 style="color: #3DD8FF;">ВТОРЫЕ БЛЮДА</h5>
+    	<br>
+      <div class="p-3 border bg-light">Описание вторых</div>
+    </div>	<br>	<br>
+    <div class="col-6">
+    	 <h5 style="color: #BA3DCD;">БЫСТРЫЕ ЗАКУСКИ</h5>
+    	 <br>
+      <div class="p-3 border bg-light">О закусках</div>
+    </div>	<br>	
+    <div class="col-6">
+    		<h5 style="color: #F5B678;">НАПИТКИ</h5>
+    		<br>
+      <div class="p-3 border bg-light">О напитках</div>
+    </div>	<br>	
+  </div>
+</div>
+
+</section>
+
+
+	<section>
+
+
+
+</section>
+
+
+<section id="info">
+<div class="bg-dark p-4" style="color: #fff;">
+	<h1>Введите данные, чтобы заказать еду</h1>
+
+	<form>
+   <p>Ваше имя: <input type="text" size="30" id="login" required></p>
+   <p>Ваш Адрес: <input type="text" size="40" id="adress" required> </p>
+    
+   <p>Телефон в формате +7:  <input type="tel" name="tel" id="tel"
+   pattern="[0-9]{9}" required></p>
+   <button id="save">Сохранить</button>
+  </form>
+  
+</div>
+
+
+
+ </div>
+
+</section>
+
+
+<section class="share" id="share">
+	
+<h3>Здравствуйте, </h3>	 <h4 id="check_name">Имя</h4>
+
+<h3 style="text-align: center;">Выбирите еду, нажмите "В КОРЗИНУ", если хотите добавить в заказ</h3>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  ПОСМОТРЕТЬ КОРЗИНУ
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Корзина</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="color: #000;">
+        <h2 id="box">Ваша корзина</h2>
+        <h2>Итог: </h2>
+        <h3 id="sum">0р</h3>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Продолжить выбирать</button>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="res_last">
+  Перейти к Чеку
+</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <div class="modal-body" style="color: #000;">
+        <h2 id="box">ВАШ ИТОГОВЫЙ ЧЕК</h2>
+        <hr>
+        <h2>Имя: </h2>
+        <h3 id="res_name">name</h3>
+        <hr>
+        <h2>Адрес: </h2>
+        <h3 id="res_adress">name</h3>
+        <hr>
+        <h2>Телефон для связи: </h2>
+        <h3 id="res_tel">name</h3>
+        <hr>
+        <h2>Итог (руб.): </h2>
+        <h3 id="res_sum">name</h3>
+        <hr>
+        
+        <h4>Спасибо, что заказали у нас. Время ожидания 25-30 минут. Оплата при получении заказа</h4>
+        
+        <hr>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary" id="exit">Жду заказ!</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container" style="padding-top: 190px; padding-bottom: 100px;" id="first">
+  <div class="row">
+    <div class="col" id="150">
+      <h3 style="margin-bottom: 20px;" id="150">Суп c фрикадельками</h3>
+      <img src="https://polzablog.ru/wp-content/uploads/2017/09/up-s-frikadelkami-glavnaya.jpg" alt="" style="width: 120px; height: 120px; border-radius: 60px;" id="150">
+      <h4 style="margin-bottom: 20px;" id="150">Цена: 150р</h4>
+      <button id="150">Добавить В корзину</button>
+    </div>
+
+    <div class="col" id="160">
+      <h3 style="margin-bottom: 20px;" id="160">Домашний борщ</h3>
+      <img src="https://avatars.mds.yandex.net/get-zen_doc/3963198/pub_5f8d8997e0a7fe2ccae20ade_5f8d8a113f59f84e2c9060f4/scale_1200" alt="" style="width: 120px; height: 120px; border-radius: 60px;" id="160">
+      <h4 style="margin-bottom: 20px;" id="160">Цена: 160р</h4>
+      <button id="160">Добавить В корзину</button>
+    </div>
+
+    <div class="col" id="200">
+      <h3 style="margin-bottom: 20px;">Лапша куриная</h3>
+      <img src="https://attuale.ru/wp-content/uploads/2018/03/lapsha-kur-1.jpg" alt="" style="width: 120px; height: 120px; border-radius: 60px;">
+      <h4 style="margin-bottom: 20px;">Цена: 200р</h4>
+      <button id="200">Добавить В корзину</button>
+    </div>
+
+    <div class="col" id="320">
+      <h3 style="margin-bottom: 20px;">Гороховый суп</h3>
+      <img src="https://ladyinlife.ru/wp-content/uploads/2015/12/002-23.jpg" alt="" style="width: 120px; height: 120px; border-radius: 60px;">
+      <h4 style="margin-bottom: 20px;">Цена: 320р</h4>
+      <button id="320">Добавить В корзину</button>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+<div class="container" style="padding-top: 190px; padding-bottom: 100px;" id="second">
+  <div class="row">
+    <div class="col" id="220">
+      <h3 style="margin-bottom: 20px;" id="150">Картофель по-итальянски</h3>
+      <img src="https://s1.1zoom.ru/big3/489/_505357.jpg" alt="" style="width: 120px; height: 120px; border-radius: 60px;" id="220">
+      <h4 style="margin-bottom: 20px;" id="150">Цена: 220р</h4>
+      <button id="220">Добавить В корзину</button>
+    </div>
+
+    <div class="col" id="250">
+      <h3 style="margin-bottom: 20px;" id="250">Спагетти с мясом</h3>
+      <img src="https://slontd.ru/800/600/https/pbs.twimg.com/media/DTRXm1bW4AIeMmg.jpg" alt="" style="width: 120px; height: 120px; border-radius: 60px;" id="250">
+      <h4 style="margin-bottom: 20px;" id="250">Цена: 250р</h4>
+      <button id="250">Добавить В корзину</button>
+    </div>
+
+    <div class="col" id="190">
+      <h3 style="margin-bottom: 20px;" id="190">Пельмени в овощах</h3>
+      <img src="https://postila.ru/data/e1/75/87/a2/e17587a2d7f7f5f12107d0f212792eb4ccd99666da2be40290af8dae31f1fb76.jpg" alt="" style="width: 120px; height: 120px; border-radius: 60px;"id="190">
+      <h4 style="margin-bottom: 20px;" id="190">Цена: 190р</h4>
+      <button id="190">Добавить В корзину</button>
+    </div>
+
+    <div class="col" id="270">
+      <h3 style="margin-bottom: 20px;" id="270">Мясо в меду</h3>
+      <img src="https://www.prpreston.ru/upload/iblock/aad/aad284bfc512fb74d25bc50ca168ebd8.jpg" alt="" style="width: 120px; height: 120px; border-radius: 60px;" id="270">
+      <h4 style="margin-bottom: 20px;" id="270" >Цена: 270р</h4>
+      <button id="270">Добавить В корзину</button>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+<div class="container" style="padding-top: 190px; padding-bottom: 100px;" id="third">
+  <div class="row">
+    <div class="col" id="110">
+      <h3 style="margin-bottom: 20px;" id="110">Сырный кайф</h3>
+      <img src="https://kartinkin.net/uploads/posts/2021-03/1617162247_15-p-furshetnie-zakuski-krasivo-16.jpg" alt="" style="width: 120px; height: 120px; border-radius: 60px;" id="110">
+      <h4 style="margin-bottom: 20px;" id="110">Цена: 110р</h4>
+      <button id="110">Добавить В корзину</button>
+    </div>
+
+    <div class="col" id="115">
+      <h3 style="margin-bottom: 20px;" id="115">Тортолетто</h3>
+      <img src="https://avocadocook.ru/f/product/39.jpg" alt="" style="width: 120px; height: 120px; border-radius: 60px;" id="115">
+      <h4 style="margin-bottom: 20px;" id="115">Цена: 115р</h4>
+      <button id="115">Добавить В корзину</button>
+    </div>
+
+    <div class="col" id="125">
+      <h3 style="margin-bottom: 20px;" id="125">Колбасный Рулет</h3>
+      <img src="http://almode.ru/uploads/posts/2021-12/1639352555_17-almode-ru-p-zakuski-iz-sira-18.jpg" alt="" style="width: 120px; height: 120px; border-radius: 60px;"id="125">
+      <h4 style="margin-bottom: 20px;" id="125">Цена: 125р</h4>
+      <button id="125">Добавить В корзину</button>
+    </div>
+
+    <div class="col" id="175">
+      <h3 style="margin-bottom: 20px;" id="175">Креветочный ролл</h3>
+      <img src="https://avatars.mds.yandex.net/get-zen_gallery/4001064/pub_5faa55a39c3dc81f907a41d4_5faa56a0d7c5a223159b2354/scale_720" alt="" style="width: 120px; height: 120px; border-radius: 60px;" id="175">
+      <h4 style="margin-bottom: 20px;" id="175" >Цена: 175р</h4>
+      <button id="175">Добавить В корзину</button>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+<div class="container" style="padding-top: 190px; padding-bottom: 100px;" id="third">
+  <div class="row">
+    <div class="col" id="315">
+      <h3 style="margin-bottom: 20px;" id="315">Коктейль "Nice"</h3>
+      <img src="https://avatars.mds.yandex.net/get-zen_doc/1704910/pub_60d2eecb58bb871d591304c9_60d2ef5458bb871d5914b3cb/scale_1200" alt="" style="width: 120px; height: 120px; border-radius: 60px;" id="315">
+      <h4 style="margin-bottom: 20px;" id="315">Цена: 315р</h4>
+      <button id="315">Добавить В корзину</button>
+    </div>
+
+    <div class="col" id="305">
+      <h3 style="margin-bottom: 20px;" id="305">Коктейль "Лагуна"</h3>
+      <img src="https://avatars.mds.yandex.net/get-zen_doc/1931664/pub_5d49926135c8d800ad19c2f9_5d49937944742600adebf3d3/scale_1200" alt="" style="width: 120px; height: 120px; border-radius: 60px;" id="305">
+      <h4 style="margin-bottom: 20px;" id="305">Цена: 305р</h4>
+      <button id="305">Добавить В корзину</button>
+    </div>
+
+    <div class="col" id="222">
+      <h3 style="margin-bottom: 20px;" id="222">Коктейль "Милкшэйк"</h3>
+      <img src="https://www.culture.ru/storage/images/8f159f230c34aba58ad85ccb5b74518a/5a67027142fea96ef45274e2c1fb7b71.jpeg" alt="" style="width: 120px; height: 120px; border-radius: 60px;"id="222">
+      <h4 style="margin-bottom: 20px;" id="222">Цена: 222р</h4>
+      <button id="222">Добавить В корзину</button>
+    </div>
+
+    <div class="col" id="235">
+      <h3 style="margin-bottom: 20px;" id="235">Коктейль "Ананас"</h3>
+      <img src="https://masyamba.ru/картинки-коктейлей/35-коктейль-картинки-красивые.jpg" alt="" style="width: 120px; height: 120px; border-radius: 60px;" id="235">
+      <h4 style="margin-bottom: 20px;" id="235" >Цена: 235р</h4>
+      <button id="235">Добавить В корзину</button>
+    </div>
+
+  </div>
+</div>
+
+
+
+</section>
+
+
+<script>
+
+	$(function(){
+		$('#staticBackdrop').hide();
+
+	var sum = 0;
+
+		 $('#share').hide(); //скрываем поле с блюдами
+$('#check').click(function(){ //функция при заполнении данных о пользователе
+$('#staticBackdrop').show();
+
+	
+	
+});
+$('#res_last').click(function(){ //функция при заполнении данных о пользователе
+$('#res_sum').text(sum);
+
+	
+	
+});
+		$('#save').click(function(){ //функция при заполнении данных о пользователе
+
+
+	$('#info').hide();	
+
+	$('#share').show();		
+	var name = $('#login').val(); 
+	var adress = $('#adress').val();
+	var tel = $('#tel').val();
+	$('#res_name').text(name);
+	$('#res_tel').text(tel);
+	$('#res_adress').text(adress);
+	
+	 $('#check_name').text(name);
+	
+	
+});
+
+		$('#150').click(function(){ //функция при заполнении данных о пользователе
+			alert('Товар: Суп с фрикадельками добавлен в корзину');
+			sum = sum + 150;
+
+			$( "#box" ).after( "<p>Суп С фрикадельками: 150p</p>" );
+			$('#sum').text(sum);
+	
+	
+	
+});
+
+
+		$('#160').click(function(){ //функция при заполнении данных о пользователе
+			alert('Товар: Домашний борщ добавлен в корзину');
+			sum = sum + 160;
+
+			$( "#box" ).after( "<p>Домашний борщ: 160p</p>" );
+			$('#sum').text(sum);
+
+	
+});
+
+
+$('#200').click(function(){ //функция при заполнении данных о пользователе
+			alert('Товар: Лапша куриная добавлен в корзину');
+			sum = sum + 200;
+
+			$( "#box" ).after( "<p>Лапша куриная: 200p</p>" );
+			$('#sum').text(sum);
+	
+	
+	
+});
+
+$('#320').click(function(){ //функция при заполнении данных о пользователе
+			alert('Товар: Гороховый суп добавлен в корзину');
+			sum = sum + 320;
+
+			$( "#box" ).after( "<p>Гороховый суп: 320p</p>" );
+			$('#sum').text(sum);
+	
+	
+	
+});
+
+$('#220').click(function(){ //функция при заполнении данных о пользователе
+			alert('Товар: Картофель по-итальянски добавлен в корзину');
+			sum = sum + 220;
+
+			$( "#box" ).after( "<p>Картофель по-итальянски: 220p</p>" );
+			$('#sum').text(sum);
+	
+	
+	
+});
+
+
+$('#250').click(function(){ //функция при заполнении данных о пользователе
+			alert('Товар: Спагетти с мясом добавлен в корзину');
+			sum = sum + 250;
+
+			$( "#box" ).after( "<p>Спагетти с мясом: 250p</p>" );
+			$('#sum').text(sum);
+});
+
+
+
+$('#190').click(function(){ //функция при заполнении данных о пользователе
+			alert('Товар: Пельмени в овощах добавлен в корзину');
+			sum = sum + 190;
+
+			$( "#box" ).after( "<p>Пельмени в овощах: 190p</p>" );
+			$('#sum').text(sum);
+});
+
+$('#270').click(function(){ //функция при заполнении данных о пользователе
+			alert('Товар: Мясо в меду добавлен в корзину');
+			sum = sum + 270;
+
+			$( "#box" ).after( "<p>Мясо в меду: 270p</p>" );
+			$('#sum').text(sum);
+});
+
+$('#110').click(function(){ //функция при заполнении данных о пользователе
+			alert('Товар: Сырный кайф добавлен в корзину');
+			sum = sum + 110;
+
+			$( "#box" ).after( "<p>Сырный кайф: 110p</p>" );
+			$('#sum').text(sum);
+});
+
+$('#115').click(function(){ //функция при заполнении данных о пользователе
+			alert('Товар: Тортолетто добавлен в корзину');
+			sum = sum + 115;
+
+			$( "#box" ).after( "<p>Тортолетто: 115p</p>" );
+			$('#sum').text(sum);
+});
+
+$('#125').click(function(){ //функция при заполнении данных о пользователе
+			alert('Товар: Колбасный рулет добавлен в корзину');
+			sum = sum + 125;
+
+			$( "#box" ).after( "<p>Колбасный рулет: 125p</p>" );
+			$('#sum').text(sum);
+});
+
+$('#175').click(function(){ //функция при заполнении данных о пользователе
+			alert('Товар: Креветочный ролл добавлен в корзину');
+			sum = sum + 175;
+
+			$( "#box" ).after( "<p>Креветочный ролл: 175p</p>" );
+			$('#sum').text(sum);
+});
+
+
+
+$('#315').click(function(){ //функция при заполнении данных о пользователе
+			alert('Товар: Коктейль "Nice" добавлен в корзину');
+			sum = sum + 315;
+
+			$( "#box" ).after( "<p>Коктейль NICE: 315p</p>" );
+			$('#sum').text(sum);
+});
+
+$('#305').click(function(){ //функция при заполнении данных о пользователе
+			alert('Товар: Коктейль "Лагуна" добавлен в корзину');
+			sum = sum + 305;
+
+			$( "#box" ).after( "<p>Коктейль Лагуна: 305p</p>" );
+			$('#sum').text(sum);
+});
+
+$('#222').click(function(){ //функция при заполнении данных о пользователе
+			alert('Товар: Коктейль "Милкшэйк" добавлен в корзину');
+			sum = sum + 222;
+
+			$( "#box" ).after( "<p>Коктейль Милкшэйк: 222p</p>" );
+			$('#sum').text(sum);
+});
+
+
+$('#235').click(function(){ //функция при заполнении данных о пользователе
+			alert('Товар: Коктейль "Ананас" добавлен в корзину');
+			sum = sum + 235;
+
+			$( "#box" ).after( "<p>Коктейль Ананас: 235p</p>" );
+			$('#sum').text(sum);
+});
+
+$('#check').click(function(){ //функция при заполнении данных о пользователе
+			
+
+			$( "#share" ).hide();
+			
+});
+
+$('#exit').click(function() {
+
+   location.reload();
+
+});
+
+
+});
+</script>
+
+
+
+
+
+
+
+
+<footer>
+
+<footer id="footer" class="footer-1">
+<div class="main-footer widgets-dark typo-light">
+<div class="container">
+<div class="row">
+   
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget subscribe no-box">
+<h5 class="widget-title">DDN<span></span></h5>
+<p>About the company, little discription will goes here.. </p>
+</div>
+</div>
+
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget no-box">
+<h5 class="widget-title">Quick Links<span></span></h5>
+<ul class="thumbnail-widget">
+<li>
+<div class="thumb-content" style="text-decoration: none;"><a href="#.">Get Started</a><br></div>  
+</li>
+<li>
+<div class="thumb-content"><a href="#.">Top Leaders</a></div>  
+</li>
+<li>
+<div class="thumb-content"><a href="#.">Success Stories</a></div>  
+</li>
+<li>
+<div class="thumb-content"><a href="#.">Event/Tickets</a></div>  
+</li>
+<li>
+<div class="thumb-content"><a href="#.">News</a></div>  
+</li>
+<li>
+<div class="thumb-content"><a href="#.">Lifestyle</a></div>  
+</li>
+<li>
+<div class="thumb-content"><a href="#.">About</a></div>  
+</li>
+</ul>
+</div>
+</div>
+
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget no-box">
+<h5 class="widget-title">Get Started<span></span></h5>
+<p>Get access to your full Training and Marketing Suite.</p>
+<a class="btn" href="#." target="_blank" style="background: orange;">Register Now</a>
+</div>
+</div>
+
+<div class="col-xs-12 col-sm-6 col-md-3">
+
+<div class="widget no-box">
+<h5 class="widget-title">Contact Us<span></span></h5>
+
+<p><a href="#" title="glorythemes">test@mail.ru</a></p>
+<ul class="social-footer2">
+<li class=""><a title="youtube" target="_blank" href="/"><img alt="youtube" width="30" height="30" src="https://kikimoraki.ru/wp-content/uploads/2020/06/twitter-2170426_1280.png"></a></li>
+<li class=""><a href="/" target="_blank" title="Facebook"><img alt="Facebook" width="30" height="30" src="https://kikimoraki.ru/wp-content/uploads/2020/06/twitter-2170426_1280.png"></a></li>
+<li class=""><a href="/" target="_blank" title="Twitter"><img alt="Twitter" width="30" height="30" src="https://kikimoraki.ru/wp-content/uploads/2020/06/twitter-2170426_1280.png"></a></li>
+<li class=""><a title="instagram" target="_blank" href="/"><img alt="instagram" width="30" height="30" src="https://kikimoraki.ru/wp-content/uploads/2020/06/twitter-2170426_1280.png"></a></li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+   
+<div class="footer-copyright">
+<div class="container">
+<div class="row">
+<div class="col-md-12 text-center">
+<p>Copyright Company DDN © 2022. All rights reserved.</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+</footer>
+
+
+
+
+
+
+ 
+</body>
+</html>
